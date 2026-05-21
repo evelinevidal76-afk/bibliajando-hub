@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "build:pages": "vite build && node -e \"const {cpSync,copyFileSync,mkdirSync}=require('fs');mkdirSync('dist/client/assets',{recursive:true});cpSync('dist/server/assets','dist/client/assets',{recursive:true});copyFileSync('dist/server/index.js','dist/client/_worker.js');\"",
+    "build:pages": "vite build && node -e \"const {cpSync,copyFileSync,mkdirSync,writeFileSync}=require('fs');mkdirSync('dist/client/assets',{recursive:true});cpSync('dist/server/assets','dist/client/assets',{recursive:true});copyFileSync('dist/server/index.js','dist/client/_worker.js');writeFileSync('dist/client/_routes.json',JSON.stringify({version:1,include:['/*'],exclude:['/assets/*']}));\"",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
