@@ -22,7 +22,7 @@ const products: Product[] = [
     audience: "Crianças de 4 a 12 anos",
     description:
       "Uma jornada animada pelo livro de Gênesis. Aprenda junto com seus filhos como tudo começou — de um jeito leve, visual e cheio de emoção.",
-    href: "https://app.bibliajando.com.br/?produto=bibliajando-pais",
+    href: "https://app-bibliajando.pages.dev/?produto=bibliajando-pais",
     image: imgPais,
     accent: "var(--brand-blue)",
   },
@@ -33,7 +33,7 @@ const products: Product[] = [
     audience: "Professores de EBD",
     description:
       "30 domingos percorrendo todo o livro de Gênesis com crianças. Material lúdico e envolvente que transforma a Escola Bíblica Dominical.",
-    href: "https://app.bibliajando.com.br/?produto=bibliajando-ebd",
+    href: "https://app-bibliajando.pages.dev/?produto=bibliajando-ebd",
     image: imgEbd,
     accent: "var(--brand-green)",
   },
@@ -44,7 +44,7 @@ const products: Product[] = [
     audience: "Adolescentes e líderes",
     description:
       "FlipBook + Bônus. Fé sem chatice. Emoção sem moralismo. Um livro que fala de Deus do jeito que os jovens entendem — com o Show de Nossa Vida como trilha de fundo.",
-    href: "https://app.bibliajando.com.br/?produto=coracao-adolescente",
+    href: "https://app-bibliajando.pages.dev/?produto=coracao-adolescente",
     image: imgCoracao,
     accent: "var(--brand-orange)",
   },
