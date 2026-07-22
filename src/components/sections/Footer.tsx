@@ -4,9 +4,9 @@ import logoFull from "@/assets/logo-full.png";
 
 const links = [
   { label: "Canal YT", href: "https://www.youtube.com/@Bibliajandooriginal", forceOpen: true },
-  { label: "EBD", href: "https://ebd.bibliajando.com.br/" },
-  { label: "Livro", href: "https://livro.bibliajando.com.br/" },
-  { label: "Clube", href: "https://clube.bibliajando.com.br/pt-br/club/bibliajando" },
+  { label: "EBD", href: "https://app.bibliajando.com.br/?produto=bibliajando-ebd" },
+  { label: "Livro", href: "https://app.bibliajando.com.br/?produto=coracao-adolescente" },
+  { label: "Clube", href: "https://app.bibliajando.com.br/" },
   { label: "Testemunho", href: "https://www.youtube.com/watch?v=cKL3bgKCTPU", forceOpen: true },
 ];
 

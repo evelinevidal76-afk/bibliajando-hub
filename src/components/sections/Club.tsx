@@ -33,7 +33,7 @@ export function Club() {
                   pra sempre.
                 </p>
                 <a
-                  href="https://clube.bibliajando.com.br/pt-br/club/bibliajando"
+                  href="https://app.bibliajando.com.br/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-8 inline-flex items-center gap-2 bg-brand-yellow text-ink px-7 py-3.5 rounded-full font-bold hover:scale-105 transition-transform shadow-yellow-glow"
