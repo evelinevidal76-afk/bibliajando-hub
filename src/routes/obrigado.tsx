@@ -115,6 +115,31 @@ function Obrigado() {
           </p>
         </div>
 
+        <div className="mt-8 pt-6 border-t border-border">
+          <p className="text-sm font-semibold text-ink">Entre para a nossa comunidade</p>
+          <div className="mt-3 flex flex-col sm:flex-row items-stretch justify-center gap-3">
+            <a
+              href="https://chat.whatsapp.com/KnHvdxzr5AUIDNRzq0t3tP?s=cl&p=i&ilr=4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-brand-green/40 bg-brand-green/10 text-ink font-semibold px-6 py-3 hover:scale-105 transition-transform"
+            >
+              💬 Grupo no WhatsApp
+            </a>
+            <a
+              href="https://www.instagram.com/channel/Abbf5jOxCkOBOM7t/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-brand-pink/40 bg-brand-pink/10 text-ink font-semibold px-6 py-3 hover:scale-105 transition-transform"
+            >
+              📣 Canal no Instagram
+            </a>
+          </div>
+          <p className="mt-2 text-xs text-foreground/55">
+            Avisos, novidades e bastidores do Bibliajando direto no seu celular.
+          </p>
+        </div>
+
         <div className="mt-10 pt-8 border-t border-border">
           <p className="text-sm text-foreground/60">
             Não encontrou seu acesso?{" "}
