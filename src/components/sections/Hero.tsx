@@ -94,7 +94,7 @@ export function Hero() {
 
             <Reveal delay={500}>
               <div className="mt-14 flex flex-wrap items-center justify-center lg:justify-start gap-x-12 gap-y-6">
-                <Stat value="+100k" label="seguidores" />
+                <Stat value="30" label="episódios animados" />
                 <span className="hidden sm:inline-block w-px h-10 bg-border" />
                 <Stat value="3" label="jornadas no app" />
                 <span className="hidden sm:inline-block w-px h-10 bg-border" />
