@@ -1,10 +1,11 @@
 import { Reveal } from "../Reveal";
+import { StoreBadges } from "../StoreBadges";
 
 const benefits = [
-  "Todos os produtos que você comprou em um só lugar",
-  "Assista, leia e baixe quando e onde quiser",
-  "Tudo organizado em um único painel, fácil de navegar",
-  "Acesso vitalício — sem mensalidade, sem assinatura",
+  "Todas as suas jornadas no mesmo aplicativo",
+  "Funciona no celular, no tablet, no computador e na TV",
+  "O progresso da família fica salvo automaticamente",
+  "Acesso vitalício, sem mensalidade e sem assinatura",
 ];
 
 export function Club() {
@@ -22,15 +23,15 @@ export function Club() {
                   🔓
                 </div>
                 <span className="text-xs uppercase tracking-[0.2em] text-brand-yellow font-bold">
-                  Sua área de acesso
+                  Já é cliente
                 </span>
                 <h2 className="mt-3 font-display text-4xl md:text-5xl leading-tight text-white">
-                  Clube Bibliajando
+                  Abra o Bibliajando
                 </h2>
                 <p className="mt-5 text-lg text-white/85">
-                  É aqui que tudo o que você comprou no Bibliajando fica
-                  guardado. Sem mensalidade, sem assinatura — comprou, é seu
-                  pra sempre.
+                  Tudo o que você comprou vive dentro do aplicativo. Entre
+                  com o e-mail da compra e continue de onde parou. Sem senha
+                  pra decorar, sem mensalidade.
                 </p>
                 <a
                   href="https://app.bibliajando.com.br/"
@@ -38,11 +39,11 @@ export function Club() {
                   rel="noopener noreferrer"
                   className="mt-8 inline-flex items-center gap-2 bg-brand-yellow text-ink px-7 py-3.5 rounded-full font-bold hover:scale-105 transition-transform shadow-yellow-glow"
                 >
-                  Acessar meus produtos →
+                  Acessar minhas jornadas →
                 </a>
-                <p className="mt-4 text-xs text-white/60">
-                  Já é cliente? Faça login com o e-mail da sua compra.
-                </p>
+                <div className="mt-6">
+                  <StoreBadges dark />
+                </div>
               </div>
               <ul className="space-y-3">
                 {benefits.map((b) => (

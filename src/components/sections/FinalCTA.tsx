@@ -33,7 +33,7 @@ export function FinalCTA() {
             Próximo passo
           </span>
           <h2 className="mt-5 font-display text-4xl md:text-6xl leading-tight text-ink">
-            Qual é o próximo passo <span className="text-gradient-warm">pra você?</span>
+            Comece pela jornada <span className="text-gradient-warm">da sua casa</span>
           </h2>
         </Reveal>
         <Reveal delay={150}>

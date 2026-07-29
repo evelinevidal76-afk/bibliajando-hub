@@ -3,10 +3,11 @@ import logoFull from "@/assets/logo-full.png";
 
 const links = [
   { label: "Início", href: "#inicio" },
-  { label: "Produtos", href: "#produtos" },
+  { label: "O aplicativo", href: "#aplicativo" },
+  { label: "Jornadas", href: "#produtos" },
   { label: "Quem Somos", href: "#quem-somos" },
-  { label: "Redes", href: "#redes" },
-  { label: "Clube", href: "#clube" },
+  { label: "Comunidade", href: "#comunidade" },
+  { label: "Meu acesso", href: "#clube" },
 ];
 
 export function Navbar() {
@@ -45,10 +46,12 @@ export function Navbar() {
         </ul>
         <div className="flex items-center gap-3">
           <a
-            href="#produtos"
+            href="https://app.bibliajando.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center gap-1 bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition-transform shadow-soft"
           >
-            Conhecer produtos →
+            Experimentar grátis →
           </a>
           <button
             className="md:hidden text-foreground p-2"
