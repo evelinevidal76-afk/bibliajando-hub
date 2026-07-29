@@ -92,6 +92,29 @@ function Obrigado() {
           Use o mesmo e-mail da compra para entrar. Acesso vitalício, sem mensalidade.
         </p>
 
+        <div className="mt-8 pt-6 border-t border-border">
+          <p className="text-sm font-semibold text-ink">📱 No celular, use o aplicativo</p>
+          <div className="mt-3 flex items-center justify-center gap-3 flex-wrap">
+            <div className="flex items-center gap-2 bg-ink text-white rounded-xl px-4 py-2 opacity-80 cursor-default select-none">
+              <span className="text-xl">▶</span>
+              <span className="text-left leading-tight">
+                <span className="block text-[9px] uppercase tracking-wider opacity-75">Em breve na</span>
+                <span className="block text-sm font-bold">Google Play</span>
+              </span>
+            </div>
+            <div className="flex items-center gap-2 bg-ink text-white rounded-xl px-4 py-2 opacity-80 cursor-default select-none">
+              <span className="text-xl">🍎</span>
+              <span className="text-left leading-tight">
+                <span className="block text-[9px] uppercase tracking-wider opacity-75">Em breve na</span>
+                <span className="block text-sm font-bold">App Store</span>
+              </span>
+            </div>
+          </div>
+          <p className="mt-2 text-xs text-foreground/55">
+            Enquanto os aplicativos não chegam às lojas, o acesso pelo navegador já funciona no celular e no computador.
+          </p>
+        </div>
+
         <div className="mt-10 pt-8 border-t border-border">
           <p className="text-sm text-foreground/60">
             Não encontrou seu acesso?{" "}
